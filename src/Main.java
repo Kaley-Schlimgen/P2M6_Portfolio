@@ -14,11 +14,11 @@ public class Main {
         students.add(new Student(9,"Joe", "4321 53rd Ave."));
         students.add(new Student(10,"Harry", "123 W. Broadway St."));
 
-        MySelectionSortMethod.selectionSort(students, new RollNoComparator());
+        MyQuickSortMethod.quickSort(students, 0, students.size() - 1, new RollNoComparator());
         System.out.println("\nSORTED BY ROLL NUMBER:");
         printStudents(students);
 
-        MySelectionSortMethod.selectionSort(students, new NameComparator());
+        MyQuickSortMethod.quickSort(students, 0, students.size() - 1, new NameComparator());
         System.out.println("\nSORTED BY NAME:");
         printStudents(students);
     }

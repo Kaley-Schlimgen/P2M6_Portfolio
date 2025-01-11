@@ -10,6 +10,14 @@ public class Student {
         this.address = address;
     }
 
+    public int getRollNo() {
+        return rollNo;
+    }
+
+    public String getName() {
+        return name;
+    }
+
     @Override
     public String toString() {
         return "Roll No. " + rollNo +
