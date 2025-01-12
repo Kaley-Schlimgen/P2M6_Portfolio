@@ -1,3 +1,9 @@
+/*
+ *
+ * This class stays the same.
+ *
+ */
+
 public class Student {
     //Student object consists of name, rollNo, address
     int rollNo;
@@ -8,14 +14,6 @@ public class Student {
         this.rollNo = rollNo;
         this.name = name;
         this.address = address;
-    }
-
-    public int getRollNo() {
-        return rollNo;
-    }
-
-    public String getName() {
-        return name;
     }
 
     @Override
